@@ -93,21 +93,21 @@ body {
 }
 .slider-container {
   position: relative;
-  width: 70%; /* スライダーの幅を親要素に合わせる */
-  height: auto; /* 高さを自動調整 */
+  width: 450px;
+  height: 350px;
   overflow: hidden;
 }
 .slide {
-  position: relative;
-  width: 70%; /* スライドの幅を親要素に合わせる */
-  height: auto; /* 高さを自動調整 */
+  position: absolute;
+  width: 450px;
+  height: 350px;
   opacity: 0;
   transition: opacity 1s;
 }
 .slide img {
-  width: 70%; /* 画像の幅を親要素に合わせる */
-  height: auto; /* 高さを自動調整 */
-  object-fit: cover; /* 画像の比率を保ちつつ、要素に合わせて表示 */
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
 }
 .slide.active {
   opacity: 1;
