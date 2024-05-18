@@ -92,7 +92,7 @@ body {
   background-color: #ffa500; /* オレンジ色 */
 }
 .slider-container {
-  position: relative;
+  position: absolute;
   width: 450px;
   height: 350px;
   overflow: hidden;
