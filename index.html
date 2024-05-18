@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sako's homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
+    <style>
+      /* ここにCSSを記述 */
+
+      /* サブタイトルのセクションのスタイル */
+      .subtitle-section {
+        text-align: center; /* テキストを中央揃えにする */
+        overflow: hidden;
+        display: block; /* ブロック要素として表示 */
+        margin: 0 auto; /* 左右のマージンを自動で調整し、中央揃えにする */
+      }
+
+      /* サブタイトルの画像のスタイル */
+      .subtitle-image {
+        max-width: 100%; /* 最大幅を100%に設定し、親要素を超えないようにする */
+        position: center;
+        height: auto; /* 高さは自動調整 */
+        display: block; /* 画像をブロック要素として表示 */
+        margin: 0 auto; /* 中央揃え */
+      }
+
+      .subtitle-section img {
+        transition: transform 0.2s ease;
+        display: block;
+        position: center;
+        width: 550px; /* 幅を指定 */
+        height: auto; /* 高さは自動調整 */
+        margin: 0 auto; /* 中央揃え */
+      }
+
+      .subtitle-section:hover img {
+        position: center;
+        transform: scale(1.1);
+      }
+
+      /* 問い合わせフォームのスタイル */
+      .contact-form {
+        max-width: 200px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #f3f3f3;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* 左揃えにする */
+      }
+      .form-group {
+        margin-bottom: 5px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 7px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      button[type="submit"] {
+        padding: 10px 20px;
+        background: #5cb85c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background: #4cae4c;
+      }
+    </style>
+  </head>
+
+  <body id="pagetop">
+    <!--
+        text追加可能
+    -->
+    <div class="logo">
+      <img src="photo2.JPG" alt="Sako Logo" />
+      <!-- 画像ファイル名を正確に指定してください -->
+      <div class="logo-text">Welcome to Sako's Home page ♡ ♡ ♡</div>
+      <!-- ロゴのテキストをここに入力 -->
+    </div>
+
+    <nav class="menu-bar">
+      <ul>
+        <li><a href="#USIC代表">USIC代表</a></li>
+        <!--  <li><a href="#usic-representative">USIC代表</a></li>
+       -->
+        <li><a href="#スタートアップ">スタートアップ</a></li>
+        <li><a href="#Internship">Internship</a></li>
+        <li><a href="#東京大学">東京大学</a></li>
+        <li><a href="#News">News</a></li>
+      </ul>
+    </nav>
+    <!-- ここに他のコンテンツを追加 -->
+
+    <div class="slider-container">
+      <div class="slide">
+        <img src="usic.JPG" alt="fig1" />
+      </div>
+      <div class="slide">
+        <img src="comp_saikyou_coo.JPG" alt="fig2" />
+      </div>
+      <div class="slide">
+        <img src="prtimes_kskmafia.JPG" alt="fig3" />
+      </div>
+      <div class="slide">
+        <img src="intern_angelbridge_big.JPG" alt="fig4" />
+      </div>
+      <div class="slide">
+        <img src="intern_fventures.JPG" alt="fig5" />
+      </div>
+      <div class="slide">
+        <img src="intern_btrax.JPG" alt="fig6" />
+      </div>
+      <div class="slide">
+        <img src="campusnewsletter.JPG" alt="fig7" />
+      </div>
+
+      <!-- 他のスライド要素を追加 -->
+
+      <!-- 問い合わせフォーム -->
+      <!-- 既存のJavaScript -->
+    </div>
+
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img src="top.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+    </div>
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section" id="USIC代表">
+      <!-- <div class="subtitle-section"  id="USIC代表">
+    -->
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a
+        href="https://www.usic2008.org/%E9%81%8B%E5%96%B6%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/13%E6%9C%9F/"
+        target="_blank"
+      >
+        <img src="usic1.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+      </a>
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a
+        href="https://www.usic2008.org/%E9%81%8B%E5%96%B6%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/13%E6%9C%9F/"
+        target="_blank"
+      >
+        <img src="usic2.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+      </a>
+    </div>
+
+    <!--
+        "USIC代表"
+        "#スタートアップ"
+        "#Internship"
+        "#東京大学"
+        "#News"
+    -->
+
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img src="top.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+    </div>
+    <div class="subtitle-section" id="スタートアップ">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a href="https://saikyo-corporate.com/" target="_blank">
+        <img
+          src="comp_saikyou1.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a href="https://saikyo-corporate.com/" target="_blank">
+        <img
+          src="comp_saikyou2.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img src="top.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+    </div>
+    <div class="subtitle-section" id="Internship">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a href="https://angelbridge.jp/" target="_blank">
+        <img
+          src="intern_angelbridge1.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a href="https://f-ventures.vc/" target="_blank">
+        <img
+          src="intern_fventures1.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a href="https://btrax.com/jp" target="_blank">
+        <img
+          src="intern_btrax3.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img
+        src="businesstrip1.JPG"
+        alt="サブタイトルの画像"
+        class="subtitle-image"
+      />
+    </div>
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img
+        src="businesstrip2.JPG"
+        alt="サブタイトルの画像"
+        class="subtitle-image"
+      />
+    </div>
+
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img src="top.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+    </div>
+
+    <div class="subtitle-section" id="東京大学">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <a
+        href="https://www.todaishimbun.org/campusnohito_20230830/"
+        target="_blank"
+      >
+        <img
+          src="campusnewsletter2.JPG"
+          alt="サブタイトルの画像"
+          class="subtitle-image"
+        />
+      </a>
+    </div>
+
+    <!-- サブタイトルと画像のセクション -->
+    <div class="subtitle-section">
+      <h2 class="subtitle"></h2>
+      <!-- 生成された画像を挿入 -->
+      <img src="top.JPG" alt="サブタイトルの画像" class="subtitle-image" />
+    </div>
+
+    <div class="contact-form">
+      <form
+        action="mailto:your-email@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <div class="form-group">
+          <label for="name">お名前:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">メッセージ:</label>
+          <textarea id="message" name="message" rows="7" required></textarea>
+        </div>
+        <button type="submit">送信</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <a href="#pagetop" class="page-top"
+        ><i class="fa fa-angle-up"></i> TOPに戻る</a
+      >
+    </div>
+
+    <script>
+      /* ここにJavaScriptを記述 */
+      const slides = document.querySelectorAll(".slide");
+      let currentIndex = 0;
+
+      function switchSlide() {
+        slides[currentIndex].classList.remove("active");
+        currentIndex = (currentIndex + 1) % slides.length;
+        slides[currentIndex].classList.add("active");
+      }
+
+      setInterval(switchSlide, 900);
+    </script>
+  </body>
+</html>
