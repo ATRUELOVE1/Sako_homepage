@@ -91,7 +91,27 @@ body {
   /*background-color: #ffdab9; /* 薄いオレンジ色 */
   background-color: #ffa500; /* オレンジ色 */
 }
-
+.slider-container {
+  position: relative;
+  width: 100%; /* スライダーの幅を親要素に合わせる */
+  height: auto; /* 高さを自動調整 */
+  overflow: hidden;
+}
+.slide {
+  position: relative;
+  width: 100%; /* スライドの幅を親要素に合わせる */
+  height: auto; /* 高さを自動調整 */
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slide img {
+  width: 100%; /* 画像の幅を親要素に合わせる */
+  height: auto; /* 高さを自動調整 */
+  object-fit: cover; /* 画像の比率を保ちつつ、要素に合わせて表示 */
+}
+.slide.active {
+  opacity: 1;
+}
 .slider-container {
   position: relative;
   width: 550px;
