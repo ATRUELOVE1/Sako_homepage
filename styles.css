@@ -94,20 +94,20 @@ body {
 
 .slider-container {
   position: relative;
-  width: 550px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   overflow: hidden;
 }
 .slide {
   position: absolute;
-  width: 550px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   opacity: 0;
   transition: opacity 1s;
 }
 .slide img {
-  width: 550px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   object-fit: cover;
 }
 .slide.active {
